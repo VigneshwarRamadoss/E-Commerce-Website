@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "../components/category/CategoryHero";
-import { Breadcrumb } from "../components/ui/Breadcrumb";
+import { Breadcrumb } from "../components/ui/breadcrumb";
 import { recipes } from "../data/recipes";
 import { Clock, Users, ArrowUpRight } from "lucide-react";
 import { SafeImage } from "../components/ui/SafeImage";

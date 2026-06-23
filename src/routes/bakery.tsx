@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CategoryHero } from "../components/category/CategoryHero";
-import { Breadcrumb } from "../components/ui/Breadcrumb";
+import { Breadcrumb } from "../components/ui/breadcrumb";
 import { FilterSidebar } from "../components/category/FilterSidebar";
 import { ProductGrid } from "../components/product/ProductGrid";
 import { ProductCard } from "../components/product/ProductCard";
