@@ -129,6 +129,7 @@ export function Header() {
             <input
               type="text"
               placeholder="Search fresh produce..."
+              suppressHydrationWarning
               className={`w-48 xl:w-64 rounded-full border bg-transparent pl-4 pr-10 py-2 text-sm outline-none transition-colors ${
                 useDarkText
                   ? "border-parchment text-foreground placeholder:text-muted-foreground focus:border-burgundy focus:bg-cream"
