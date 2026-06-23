@@ -14,9 +14,9 @@ type AppEvents = {
 
 export function reportError(error: unknown, context: Record<string, unknown> = {}) {
   if (typeof window === "undefined") return;
-  
+
   // Retrieve global tracking handler safely
-  const events = (window as any).__lovableEvents;
+  const events = (window as unknown as { __appEvents?: AppEvents }).__appEvents;
   events?.captureException?.(
     error,
     {

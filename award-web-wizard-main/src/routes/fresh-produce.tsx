@@ -133,7 +133,6 @@ function FreshProduce() {
                   "Salad Kits",
                 ].map((chip, i) => (
                   <button
-                    suppressHydrationWarning={true}
                     key={chip}
                     className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all ${i === 0 ? "bg-burgundy text-cream shadow-md shadow-burgundy/20" : "bg-cream-warm text-burgundy-dark border border-parchment hover:border-gold hover:text-gold-deep"}`}
                   >
@@ -151,7 +150,6 @@ function FreshProduce() {
 
             <div className="mt-16 flex justify-center">
               <button
-                suppressHydrationWarning={true}
                 className="px-8 py-3.5 rounded-full border-2 border-burgundy text-burgundy font-semibold text-sm hover:bg-burgundy hover:text-cream transition-all hover:shadow-[0_8px_30px_-10px_rgba(74,16,32,0.5)]"
               >
                 Load more produce

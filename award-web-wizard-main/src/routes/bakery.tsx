@@ -50,7 +50,6 @@ function Bakery() {
                   "Jams & Spreads",
                 ].map((chip, i) => (
                   <button
-                    suppressHydrationWarning={true}
                     key={chip}
                     className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${i === 0 ? "bg-burgundy text-cream" : "bg-cream-warm text-burgundy-dark hover:bg-parchment"}`}
                   >
@@ -79,7 +78,6 @@ function Bakery() {
                 AM.
               </p>
               <button
-                suppressHydrationWarning={true}
                 className="mt-6 px-6 py-3 bg-burgundy text-cream font-semibold rounded-full hover:bg-burgundy-dark transition-colors"
               >
                 Subscribe to box
